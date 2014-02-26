@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0+git20140203 amd64 armhf
+# SymbolsHelper-Confirmed: 0.1.1 amd64
 libqaccessibilityclient.so.0 libqaccessibilityclient0 #MINVER#
  (optional=templinst)_Z19qDBusMarshallHelperI5QListIN17QAccessibleClient10QSpiActionEEEvR13QDBusArgumentPKT_@Base 0+git20130108
  (optional=templinst)_Z19qDBusMarshallHelperI5QListIN17QAccessibleClient19QSpiObjectReferenceEEEvR13QDBusArgumentPKT_@Base 0+git20130108
@@ -35,8 +35,6 @@ libqaccessibilityclient.so.0 libqaccessibilityclient0 #MINVER#
  (optional=templinst)_ZN10QDBusReplyI5QListIN17QAccessibleClient19QSpiObjectReferenceEEED2Ev@Base 0+git20130108
  (optional=templinst)_ZN10QDBusReplyI5QListIjEED1Ev@Base 0+git20130108
  (optional=templinst)_ZN10QDBusReplyI5QListIjEED2Ev@Base 0+git20130108
- (optional=templinst|arch=armhf)_ZN10QDBusReplyI7QStringEC1ERK12QDBusMessage@Base 0+git20140203
- (optional=templinst|arch=armhf)_ZN10QDBusReplyI7QStringEC2ERK12QDBusMessage@Base 0+git20140203
  (optional=templinst)_ZN10QDBusReplyI7QStringED1Ev@Base 0+git20130108
  (optional=templinst)_ZN10QDBusReplyI7QStringED2Ev@Base 0+git20130108
  (optional=templinst)_ZN10QDBusReplyI8QVariantED1Ev@Base 0+git20130108
@@ -252,7 +250,6 @@ libqaccessibilityclient.so.0 libqaccessibilityclient0 #MINVER#
  (optional=templinst)_ZN5QListI8QVariantE13detach_helperEi@Base 0+git20130108
  (optional=templinst)_ZN5QListI8QVariantE18detach_helper_growEii@Base 0+git20130108
  (optional=templinst)_ZN5QListI8QVariantE6appendERKS0_@Base 0+git20130108
- (optional=templinst|arch=armhf)_ZN5QListI8QVariantE9node_copyEPNS1_4NodeES3_S3_@Base 0+git20140203
  (optional=templinst)_ZN5QListI8QVariantED1Ev@Base 0+git20130108
  (optional=templinst)_ZN5QListI8QVariantED2Ev@Base 0+git20130108
  (optional=templinst)_ZN5QListIN17QAccessibleClient10QSpiActionEE13detach_helperEi@Base 0+git20130108
@@ -266,7 +263,6 @@ libqaccessibilityclient.so.0 libqaccessibilityclient0 #MINVER#
  (optional=templinst)_ZN5QListIN17QAccessibleClient16AccessibleObjectEE13detach_helperEi@Base 0+git20130108
  (optional=templinst)_ZN5QListIN17QAccessibleClient16AccessibleObjectEE18detach_helper_growEii@Base 0+git20130108
  (optional=templinst)_ZN5QListIN17QAccessibleClient16AccessibleObjectEE6appendERKS1_@Base 0+git20130108
- (optional=templinst|arch=armhf)_ZN5QListIN17QAccessibleClient16AccessibleObjectEE9node_copyEPNS2_4NodeES4_S4_@Base 0+git20140203
  (optional=templinst)_ZN5QListIN17QAccessibleClient16AccessibleObjectEED1Ev@Base 0+git20130108
  (optional=templinst)_ZN5QListIN17QAccessibleClient16AccessibleObjectEED2Ev@Base 0+git20130108
  (optional=templinst)_ZN5QListIN17QAccessibleClient19QSpiObjectReferenceEE13detach_helperEi@Base 0+git20130108
