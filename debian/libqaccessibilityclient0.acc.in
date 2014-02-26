@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    0.1.1
+</version>
+
+<headers>
+    /usr/include/qaccessibilityclient/
+</headers>
+
+<libs>
+    /usr/lib/${DEB_HOST_MULTIARCH}/libqaccessibilityclient.so
+</libs>
+
+</descriptor>

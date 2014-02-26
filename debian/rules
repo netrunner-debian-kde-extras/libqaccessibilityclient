@@ -13,3 +13,13 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 	    -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)
+
+run_dh_acc:
+	# The package needs to be installed (@ in autopkgtest)
+	for in_file in debian/*.acc.in; do \
+	    out_file=$${in_file%.in}; \
+	    sed 's/\$${DEB_HOST_MULTIARCH}/'"$(DEB_HOST_MULTIARCH)"'/' \
+		"$${in_file}" > "$${out_file}"; \
+	done
+
+	dh_acc
