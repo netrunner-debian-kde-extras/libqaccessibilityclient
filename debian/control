@@ -1,0 +1,27 @@
+Source: libqaccessibilityclient
+Section: libs
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: debhelper (>= 9), pkg-kde-tools, cmake, libqt4-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/playground/accessibility/libkdeaccessibilityclient
+
+Package: libqaccessibilityclient-dev
+Section: libdevel
+Architecture: any
+Depends: libqaccessibilityclient0 (= ${binary:Version}), ${misc:Depends}
+Description: helper to make writing accessibility tools easier
+ Helper library to make writing accessibility tools easier.  Used by
+ screen readers for example.
+ .
+ This package contains the development files.
+
+Package: libqaccessibilityclient0
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: helper to make writing accessibility tools easier
+ Helper library to make writing accessibility tools easier.  Used by
+ screen readers for example.
