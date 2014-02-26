@@ -1,1 +1,2 @@
-usr/lib/lib*.so.*
+usr/lib/*/libqaccessibilityclient.so.0
+usr/lib/*/libqaccessibilityclient.so.0.*
