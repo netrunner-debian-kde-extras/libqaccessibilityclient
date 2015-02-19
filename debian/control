@@ -13,7 +13,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libqaccessibilityclient.git
 Package: libqaccessibilityclient-dev
 Section: libdevel
 Architecture: any
-Depends: libqaccessibilityclient0 (= ${binary:Version}), ${misc:Depends}
+Depends: libqaccessibilityclient0 (= ${binary:Version}),
+         libqt4-dev,
+         ${misc:Depends}
 Description: helper to make writing accessibility tools easier
  Helper library to make writing accessibility tools easier.  Used by
  screen readers for example.
