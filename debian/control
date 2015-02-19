@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake, debhelper (>= 9), libqt4-dev, pkg-kde-tools
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/playground/accessibility/libkdeaccessibilityclient
 
 Package: libqaccessibilityclient-dev
