@@ -6,6 +6,8 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake, debhelper (>= 9), libqt4-dev, pkg-kde-tools
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/playground/accessibility/libkdeaccessibilityclient
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/libqaccessibilityclient.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libqaccessibilityclient.git
 
 Package: libqaccessibilityclient-dev
 Section: libdevel
